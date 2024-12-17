@@ -14,6 +14,13 @@ public class Event {
     private String name;
     private String date;
 
+    public Event() { }
+
+    public Event(String name, String date) {
+        this.name = name;
+        this.date = date;
+    }
+
     public Long getId() {
         return id;
     }
